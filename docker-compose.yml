@@ -1,0 +1,8 @@
+version: '3'
+services:
+    test-docker:
+       build:
+          context: ./sources
+          dockerfile: Dockerfile
+       ports:
+          - "80:80"
